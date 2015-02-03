@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAD2" 
+	android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="
+请输入设备SIM卡号:"
+        android:textSize="@dimen/padding_large" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" >
+
+        <requestFocus />
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="记住卡号" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:text="确定" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Control</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Control</string>
+    <string name="info">日光灯1</string>
+    <string name="on">开</string>
+    <string name="off">关</string>
+
+</resources>
